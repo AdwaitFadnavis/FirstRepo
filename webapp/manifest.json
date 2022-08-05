@@ -7,7 +7,7 @@
     "applicationVersion": {
       "version": "0.0.1"
     },
-    
+
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
@@ -16,9 +16,10 @@
       "version": "1.6.7",
       "toolsId": "bdd163b7-59b7-4725-b994-1868e82d14ea"
     },
+
     "dataSources": {
       "mainService": {
-        "uri": "/sap/opu/odata/sap/EPM_REF_APPS_PO_APV_SRV/",
+        "uri": "/sap/opu/odata/sap/EPM_REF_APPS_PO_APV_SRV/$metadata",
         "type": "OData",
         "settings": {
           "annotations": [
